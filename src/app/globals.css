@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+* {
+    font-family: 'Belanosima', sans-serif;
+}
+
+::placeholder {
+    @apply text-lg;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
